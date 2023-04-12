@@ -1,0 +1,13 @@
+testdiv.innerHTML+=`
+<div class="allweather">       
+<img src="./gallery/${weather[0].icon}.png" alt="${weather[0].main}">
+<p>${main.temp-273,15}</p>
+<p>${main.temp_max-273,15}</p>
+<p>${main.temp_min-273,15}</p>
+<p>${visibility}</p>
+<p>${main.humidity}</p>
+<p>${main.pressure}</p>
+<p>${wind.speed}</p>
+<p>${main.pressure}</p>
+</div>
+`
